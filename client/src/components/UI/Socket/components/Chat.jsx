@@ -1,4 +1,4 @@
-import React, { useMemo } from 'react';
+import React, { useMemo, useEffect } from 'react';
 import { useDispatch, useSelector } from 'react-redux';
 import socket from '../socket';
 import styles from './Chat.module.css';
@@ -23,7 +23,7 @@ function Chat() {
     setMessageValue('');
   };
 
-  React.useEffect(() => {
+  useEffect(() => {
     messagesRef.current.scrollTo(0, 99999);
   }, [messages]);
 
