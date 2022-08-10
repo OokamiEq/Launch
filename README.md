@@ -20,4 +20,4 @@ Nikita Artamonov - Teamlead/Fullstack
 Denis Gutsulyak - Fullstack
 Evgeniy Tabunov - Frontend
 Vladislav Rudnitskiy - Frontend
-Roman - Backend
+Roman Kulikov - Fullstack
