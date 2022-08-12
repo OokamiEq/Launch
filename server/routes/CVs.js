@@ -29,6 +29,7 @@ router.route('/:id')
       res.sendStatus(404);
     }
   })
+  // eslint-disable-next-line consistent-return
   .put(async (req, res) => {
     const {
       skillsID,
